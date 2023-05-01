@@ -1,0 +1,1 @@
+select nome_programador, id_programador from programador where id_programador NOT IN (select id_programador from programador_linguagem)

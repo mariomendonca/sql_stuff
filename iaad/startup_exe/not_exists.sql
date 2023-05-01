@@ -1,0 +1,1 @@
+SELECT p.none_programador, p.id_programador from programador as p where not exists (select * from programador_linguagem as pl where p.id_programador = pl.id_programador)

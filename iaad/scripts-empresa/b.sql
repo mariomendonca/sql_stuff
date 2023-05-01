@@ -1,0 +1,1 @@
+SELECT  datanasc, pnome FROM funcionario WHERE pnome = "joao"

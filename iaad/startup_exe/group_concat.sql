@@ -1,0 +1,1 @@
+select s.nome_startup, group_concat(" ", p.nome_programador) as 'Programadores' from startup as s natural left join programador as p group by s.nome_startup

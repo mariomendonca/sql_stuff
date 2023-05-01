@@ -1,0 +1,1 @@
+select nome_programador, nome_startup from startup, programador
